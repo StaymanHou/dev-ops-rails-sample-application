@@ -28,7 +28,7 @@ group :test do
 end
 
 gem 'pg'
-gem 'passenger'
+gem 'passenger', '~> 4.0.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
