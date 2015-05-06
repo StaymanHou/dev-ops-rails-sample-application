@@ -15,14 +15,17 @@ group :development, :test do
   gem 'simplecov'
 end
 
+group :development do
+  gem 'capistrano'
+  gem 'capistrano-rails'
+end
+
 group :test do
   gem 'cucumber-rails'
   gem 'cucumber-rails-training-wheels'
 end
 
-group :production do
-  gem 'pg'
-end
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.

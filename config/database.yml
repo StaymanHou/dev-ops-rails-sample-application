@@ -21,10 +21,11 @@ test: &test
 production:
   adapter: postgresql
   encoding: unicode
+  host: localhost
   database: rp_production
   pool: 5
   timeout: 5000
-  username: root
+  username: postgres
   password: asdfasdf
 
 cucumber:
